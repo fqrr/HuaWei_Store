@@ -1,0 +1,25 @@
+function sum(list){
+  // 通过循环遍历 遍历出已勾选的商品价格*商品数量
+var total =0
+for(var i=0;i<list.length;i++){
+  if(list[i].checked){
+    total +=list[i].good.price*list[i].number
+  }
+}
+console.log(total);
+return total
+}
+
+function check(list){
+  // 购物车商品为0的情况
+  if(list.length===0) return false;
+  // list.every(callbacck)所有项为true才返回true否则返回false
+  return list.every(function(item){
+      return item.checked ===true
+  })
+}
+
+module.exports={
+  sum:sum,
+  check:check
+}

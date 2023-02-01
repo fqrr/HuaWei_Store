@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "products-search":"../../components/search/search",
+    "mp-sticky":"@miniprogram-component-plus/sticky"
+  },
+  "navigationBarTitleText": "小清新Alex商店",
+  "enablePullDownRefresh":true
+}

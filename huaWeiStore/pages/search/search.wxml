@@ -1,0 +1,9 @@
+<!--pages/search/search.wxml-->
+<!-- 1、 "useExtendedLib": {
+    "weui": true
+  }//注册ui组件库
+   2、在json中使用组件
+   -
+   3、写对应回调函数
+   -->
+<mp-searchbar bindselectresult="selectresult" search="{{search}}"></mp-searchbar>

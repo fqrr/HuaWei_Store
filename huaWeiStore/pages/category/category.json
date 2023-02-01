@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mp-vtabs": "../../miniprogram_npm/@miniprogram-component-plus/vtabs",
+    "mp-vtabs-content": "../../miniprogram_npm/@miniprogram-component-plus/vtabs-content"
+  },
+  "navigationBarTitleText": "分类"
+
+}

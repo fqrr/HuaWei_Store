@@ -1,0 +1,2 @@
+<!-- 搜索框 -->
+<input type="text" placeholder="点我搜索商品" bindtap="handleTap"/>

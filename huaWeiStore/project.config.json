@@ -1,0 +1,87 @@
+{
+  "description": "项目配置文件",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enhance": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": "myid=1&name=%E8%8D%A3%E8%80%809X",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/searchlist/searchlist",
+          "pathName": "pages/searchlist/searchlist",
+          "query": "id=2",
+          "scene": null
+        },
+        {
+          "name": "pages/telform/telform",
+          "pathName": "pages/telform/telform",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/detail/detail",
+          "pathName": "pages/detail/detail",
+          "query": "id=2",
+          "scene": null
+        },
+        {
+          "name": "pages/shopcar/shopcar",
+          "pathName": "pages/shopcar/shopcar",
+          "query": "myid=1&name=%E8%8D%A3%E8%80%809X",
+          "scene": null
+        },
+        {
+          "name": "pages/center/center",
+          "pathName": "pages/center/center",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "libVersion": "2.14.1",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "appid": "wxdf48bfaa5481734c"
+}

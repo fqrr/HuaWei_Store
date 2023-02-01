@@ -1,0 +1,19 @@
+/* pages/home/home.wxss */
+
+swiper image{
+  width: 100%;
+}
+
+/* swiper给swiper设置指定高度解决自适应  height=图片原高度 * 2 （rpx）  */
+swiper{
+  height: 297rpx;
+}
+.goodbox{
+  padding: 10rpx;
+  overflow: hidden;
+}
+
+.goodbox image{
+    width: 200rpx;
+    float:left;
+}
